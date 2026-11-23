@@ -6,16 +6,16 @@ Spreadsheet to calculate annual yields from meter readings
 
 UrStrom uses a spreadsheet with annual meter readings to calculate on-site power consumption for individual sites, as well as to create overall reports (see e.g.  https://www.urstrom.de/wordpress/wp-content/uploads/2026/09/UrStrom_Projektbericht_2025.pdf).
 
-This repository holds an appropriately anomyzed spreadsheet of accounting of yearly data is done at UrStrom. UrStrom currently operates 30+ PV plants, this is just a glimpse of how we do it at the moment.
+This repository holds an appropriately anonymized spreadsheet of accounting of yearly data is done at UrStrom. UrStrom currently operates 30+ PV plants, this is just a glimpse of how we do it at the moment.
 
 All text is in English followed by German. 
 
-The spreadsheet contains two workbooks, one of them is "Meter readings", the other is "Systems".
+The spreadsheet contains two worksheets, one of them is "Meter readings", the other is "Systems".
 For illustration, the "Systems" spreadsheet shows 5 plants, and the "Meter readings" spreadsheet just shows the data of 1 plant. Data has been partially anonymized, except for plant size and yields, which in this case are public anyway.
 
-# Workbook "Meter readings"
+# Worksheet "Meter readings"
 
-In workbook "Meter readings", the columns are
+In worksheet "Meter readings", the columns are
 
 * "No.": system number, 
 * "system": system name, always 6 here, as we only illustrate with the data of system 6,
@@ -33,9 +33,9 @@ The calculation of values is illustrated by the formulas that typically act on t
 
 Generally it is possible to add columns also for ad-hoc calculations. 
 
-# Workbook "Systems"
+# Worksheet "Systems"
 
-In workbook "Systems", the columns are: 
+In worksheet "Systems", the columns are: 
 
 * No. (Nr.) – Sequential row number identifying each PV unit within the list.
 * Name – Name/label of the installation, often the site or owner designation of the PV system.
